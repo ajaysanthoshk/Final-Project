@@ -24,9 +24,6 @@ The GRU model outperformed both LSTM and CNN architectures across all evaluation
 | LSTM     | 21.4166 | 4.6278 | 3.7775 | 0.9897   | 52 min        |
 | CNN      | 34.7146 | 5.8919 | 4.3117 | 0.9834   | 29 min        |
 
-![Model Comparison](visualizations/model_comparison.png)
-
-## 📂 Repository Structure
 ## 🛠️ Technical Implementation
 ### Data
 - **Source**: Yahoo Finance (via Kaggle)
@@ -56,25 +53,7 @@ The GRU model outperformed both LSTM and CNN architectures across all evaluation
 - Matplotlib, Seaborn, Plotly for visualization
 - Google Colab with GPU acceleration
 
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ajaysanthoshk/Final-Project.git
-   cd Final-Project
-   pip install -r requirements.txt
-   1_data_preprocessing.ipynb → 2_eda_analysis.ipynb → 3_model_training.ipynb → 4_evaluation.ipynb
-   📈 Key Visualizations
-Exploratory Data Analysis
-Closing Prices
-*Stock closing price trends for major tech stocks (2013-2018)*
-
-Volatility Analysis
-*30-day rolling volatility for AAPL, GOOG, and AMZN*
-
-Model Predictions
-Predictions vs Actual
-GRU model predictions vs actual prices (last 100 days)
-   📚 References
+ 📚 References
 Complete literature review with 30+ academic references included in the full report. Key references:
 
 Moghar & Hamiche (2020) on LSTM for stock prediction
