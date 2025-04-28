@@ -34,4 +34,19 @@
    ```bash
    git clone https://github.com/ajaysanthoshk/Final-Project.git
    cd Final-Project
-   
+   pip install -r requirements.txt
+   1_data_preprocessing.ipynb → 2_eda_analysis.ipynb → 3_model_training.ipynb → 4_evaluation.ipynb
+   📚 References
+Complete literature review with 30+ academic references included in the full report. Key references:
+
+Moghar & Hamiche (2020) on LSTM for stock prediction
+
+Rahman et al. (2019) on GRU advantages
+
+Chicco et al. (2021) on evaluation metrics
+
+👨‍💻 Author
+Ajay Santhosh K V
+MSc Data Science, University of Hertfordshire
+Student ID: 23024049
+Supervisor: William Cooper
