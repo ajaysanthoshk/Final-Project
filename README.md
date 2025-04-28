@@ -36,6 +36,17 @@
    cd Final-Project
    pip install -r requirements.txt
    1_data_preprocessing.ipynb → 2_eda_analysis.ipynb → 3_model_training.ipynb → 4_evaluation.ipynb
+   📈 Key Visualizations
+Exploratory Data Analysis
+Closing Prices
+*Stock closing price trends for major tech stocks (2013-2018)*
+
+Volatility Analysis
+*30-day rolling volatility for AAPL, GOOG, and AMZN*
+
+Model Predictions
+Predictions vs Actual
+GRU model predictions vs actual prices (last 100 days)
    📚 References
 Complete literature review with 30+ academic references included in the full report. Key references:
 
