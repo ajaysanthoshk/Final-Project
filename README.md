@@ -1,5 +1,32 @@
 # Final-Project
+# Stock Market Analysis with Deep Learning Models
 
+![GitHub last commit](https://img.shields.io/github/last-commit/ajaysanthoshk/Final-Project)
+![GitHub repo size](https://img.shields.io/github/repo-size/ajaysanthoshk/Final-Project)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+
+## 📝 Project Overview
+This repository contains my MSc Data Science final project (7PAM2002) from the University of Hertfordshire, comparing the performance of LSTM, GRU, and CNN models for S&P 500 stock price prediction using over 619,000 daily observations from 2013-2018.
+
+**Key Features:**
+- Comparative analysis of three deep learning architectures
+- Extensive feature engineering with technical indicators (RSI, moving averages)
+- Comprehensive exploratory data analysis (EDA)
+- Model performance evaluation with multiple metrics
+- Complete implementation in Python using TensorFlow/Keras
+
+## 📊 Key Results
+The GRU model outperformed both LSTM and CNN architectures across all evaluation metrics:
+
+| Model    | MSE     | RMSE   | MAE    | R² Score | Training Time |
+|----------|---------|--------|--------|----------|---------------|
+| **GRU**  | 15.1552 | 3.8930 | 2.8725 | 0.9927   | 38 min        |
+| LSTM     | 21.4166 | 4.6278 | 3.7775 | 0.9897   | 52 min        |
+| CNN      | 34.7146 | 5.8919 | 4.3117 | 0.9834   | 29 min        |
+
+![Model Comparison](visualizations/model_comparison.png)
+
+## 📂 Repository Structure
 ## 🛠️ Technical Implementation
 ### Data
 - **Source**: Yahoo Finance (via Kaggle)
