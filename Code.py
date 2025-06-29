@@ -315,7 +315,7 @@ def create_sequences(data, time_steps=50):
     return np.array(X), np.array(y).reshape(-1, 1)
 
 # Example DataFrame setup (simulate some data):
-# Replace this with your actual data loading
+
 np.random.seed(42)
 num_samples = 1000
 stock_names = ['AAPL', 'GOOG']
